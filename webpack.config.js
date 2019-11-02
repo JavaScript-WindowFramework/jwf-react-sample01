@@ -21,7 +21,6 @@ const config = {
       {
         test: /\.(js|jsx)$/,
         use: ["source-map-loader"],
-        exclude: /node_modules/,
         enforce: "pre"
       },
       {
