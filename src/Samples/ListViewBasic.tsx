@@ -49,7 +49,7 @@ export function ListViewBasic() {
             onDrop = {(e)=>{
               const dragData = JSON.parse(e.dataTransfer.getData("text/plain")) as ListViewDragData;
               for(const item of dragData.items)
-                listViewRef.current!.addItem( item.labels);
+                listViewRef.current!.addItem( item.items);
             }}
           >
             <ListHeaders>

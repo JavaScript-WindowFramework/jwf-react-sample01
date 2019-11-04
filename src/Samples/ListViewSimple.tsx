@@ -22,31 +22,31 @@ export function ListViewSimple() {
         <ListRow>
           <ListItem>{count++}</ListItem>
           <ListItem>竹槍</ListItem>
-          <ListItem>5</ListItem>
+          <ListItem value={5}>5</ListItem>
           <ListItem>10</ListItem>
         </ListRow>
         <ListRow>
           <ListItem>{count++}</ListItem>
           <ListItem>銅の剣</ListItem>
-          <ListItem>18</ListItem>
+          <ListItem value={18}>18</ListItem>
           <ListItem>120</ListItem>
         </ListRow>
         <ListRow>
           <ListItem>{count++}</ListItem>
           <ListItem>棍棒</ListItem>
-          <ListItem>10</ListItem>
+          <ListItem value={10}>10</ListItem>
           <ListItem>40</ListItem>
         </ListRow>
         <ListRow>
           <ListItem>{count++}</ListItem>
           <ListItem>鉄の槍</ListItem>
-          <ListItem>30</ListItem>
+          <ListItem value={30}>30</ListItem>
           <ListItem>380</ListItem>
         </ListRow>
         <ListRow>
           <ListItem>{count++}</ListItem>
           <ListItem>鉄の剣</ListItem>
-          <ListItem>40</ListItem>
+          <ListItem value={40}>40</ListItem>
           <ListItem>700</ListItem>
         </ListRow>
       </ListView>
