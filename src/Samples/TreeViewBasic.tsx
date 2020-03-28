@@ -9,7 +9,7 @@ import {
 
 export function TreeViewBasic() {
   const treeViewRef = React.useRef<TreeView>(null);
-  const [message, setMessage] = React.useState();
+  const [message, setMessage] = React.useState<React.ReactNode>();
   return (
     <JSWindow width={600} title="TreeView">
       <SplitView>

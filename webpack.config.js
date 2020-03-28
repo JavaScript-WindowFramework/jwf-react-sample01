@@ -15,13 +15,9 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.(ts|tsx)$/,
+        test: /\.(js|ts|tsx)$/,
+        exclude: /node_modules/,
         loader: "ts-loader"
-      },
-      {
-        test: /\.(js|jsx)$/,
-        use: ["source-map-loader"],
-        enforce: "pre"
       },
       {
         test: /\.(scss|css)$/,
