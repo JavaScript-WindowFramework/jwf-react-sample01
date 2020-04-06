@@ -1,5 +1,4 @@
 const path = require("path");
-const glob = require("glob");
 const TerserPlugin = require("terser-webpack-plugin");
 const htmlWebpackPlugin = require('html-webpack-plugin');
 const config = {
